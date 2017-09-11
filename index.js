@@ -129,7 +129,7 @@ function endGame() {
   window.removeEventListener('keydown', moveDodger);
 
   alert("YOU LOSE!");
-  start();
+  location.reload();
 }
 
 function moveDodger(e) {
