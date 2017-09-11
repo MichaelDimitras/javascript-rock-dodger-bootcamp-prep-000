@@ -62,7 +62,6 @@ function createRock(x) {
 
   // Hmmm, why would we have used `var` here?
   var top = 0
-
   rock.style.top = top;
 
   /**
@@ -79,7 +78,7 @@ function createRock(x) {
     // implement me!
     // (use the comments below to guide you!)
 
-    top += 2;
+    rock.style.lop= `${top + 2}`;
 
     /**
      * If a rock collides with the DODGER,
