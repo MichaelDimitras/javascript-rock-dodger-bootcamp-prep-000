@@ -91,7 +91,7 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
      if(top < 380){
-       moveRock();
+       moveRock(rock);
      }
 
     /**
